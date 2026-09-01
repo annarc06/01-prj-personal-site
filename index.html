@@ -2,10 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <main class="site-shell">
+    <section class="card hero" id="top">
+      <div class="hero-content">
+        <h1>Anna Cameron</h1>
+        <h2>Creative Designer &amp; Front-End Developer</h2>
+      </div>
+    </section>
+
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="#more-about-me">more about me</a>
+      <a href="#more-portfolio">more portfolio</a>
+      <a href="#contact">contact</a>
+    </nav>
+
+    <section class="card info-card" id="more-about-me">
+      <img src="img/dragon.svg" alt="dragon icon" class="dragon-icon">
+      <div class="about-copy">
+        <h3>About Me</h3>
+        <div class="about-columns">
+          <div class="about-text-column">
+            <p>
+              I grew up on a farm, where I learned the value of hard work, attention to detail, and bringing creative solutions to everyday challenges. There has never been a moment where I am unthankful for how I was raised. That foundation shaped how I approach design and development today. I earned my Associate's degree while balancing work and passion projects, exploring everything from web design to logo creation. Now, I am pursuing my Bachelor's degree while continuing to build my portfolio and develop my skills in both design and front-end development.
+            </p>
+          </div>
+          <div class="about-text-column">
+            <p>
+              My passion projects have been the best teachers. I have designed websites with creativity, created brand identities through logo design, and made posters for local businesses. Every project has taught me something new about my dreams. I love turning ideas into thoughtful digital experiences and work that feels personal and an expression. Whether I am building a layout from scratch, or helping someone tell their story online, I bring the same care and precision that I learned growing up to every single project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card portfolio" id="more-portfolio">
+      <img src="img/sword-rose-outline.svg" alt="sword rose icon" class="sword-icon">
+      <h3>Featured Works</h3>
+      <p class="portfolio-intro">Here are some of my favorite projects from each corner of my skills!</p>
+      <ul class="portfolio-links">
+        <li><a href="https://www.example.com" target="_blank" rel="noreferrer">Favorite Website ever done</a></li>
+        <li><a href="https://www.example.com/brand" target="_blank" rel="noreferrer">Brand Identity Launch</a></li>
+        <li><a href="https://www.example.com/portfolio" target="_blank" rel="noreferrer">Posters, Logos, & More</a></li>
+        <li><a href="https://www.example.com/shop" target="_blank" rel="noreferrer">Photo Edits & More</a></li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
